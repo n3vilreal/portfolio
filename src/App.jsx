@@ -7,6 +7,7 @@ import Overview from './Components/Overview.jsx'
 import Music from './Components/Music.jsx'
 import Interests from './Components/Interests.jsx'
 import Projects from './Components/Projects.jsx'
+import React from 'react';
 
 function App() {
   const [count, setCount] = useState(0)
