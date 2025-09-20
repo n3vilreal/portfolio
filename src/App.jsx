@@ -12,7 +12,6 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
       <div className='w-full min-h-screen m-0 p-0 bg-[#010409]'>
           <Navbar/>
           <Navigation/>
@@ -25,7 +24,6 @@ function App() {
 
           </Routes>
         </div>
-    </BrowserRouter>
   )
 }
 
