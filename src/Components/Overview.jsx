@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Overview() {
   return (
-    <div className='flex w-full pt-10'>
-        <div className='Left h-screen w-[384px] flex items-center flex-col ml-12'>
+  <div className='flex flex-col md:flex-row w-full pt-10'>
+    <div className='Left h-auto md:h-screen w-full md:w-[384px] flex items-center flex-col md:ml-12'>
             <div className='profile-photo'>
                 <img src="https://avatars.githubusercontent.com/u/168754188?v=4" className='h-96 rounded-full border-gray-500 border-2' />
             </div>

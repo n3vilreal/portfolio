@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
         <div id='navbar' className='flex pr-4 flex-col w-screen'>
-            <div id='header' className='flex justify-between'>
+            <div id='header' className='flex flex-col md:flex-row justify-between items-center'>
                 <div id='left' className='flex items-center p-3 space-x-3 ml-2'>
                 <div className='border-solid border-gray-400 border-1 rounded-md p-0.5'>
                     <IoMenu className='text-2xl text-gray-400'/>

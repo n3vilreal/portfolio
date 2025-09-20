@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <div className='w-full min-h-screen m-0 p-0 bg-[#010409]'>
+  <div className='w-full min-h-screen m-0 p-0 bg-[#010409] flex flex-col'>
           <Navbar/>
           <Navigation/>
           <hr className='bg-gray-300 h-0.5 my-2'/>
