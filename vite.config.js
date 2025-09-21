@@ -7,7 +7,15 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/portfolio/',
   build: {
-    target: 'esnext',
-    minify: 'esbuild'
+    target: 'es2015',
+    minify: 'terser',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom']
+        }
+      }
+    }
   }
 })
