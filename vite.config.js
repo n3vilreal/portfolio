@@ -8,7 +8,7 @@ export default defineConfig({
   base: '/portfolio/',
   build: {
     target: 'es2015',
-    minify: 'terser',
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
