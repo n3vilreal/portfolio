@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+/* Fix for text-size-adjust compatibility using feature detection */
+@supports (-webkit-text-size-adjust: 100%) {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+@supports (text-size-adjust: 100%) {
+  html {
+    text-size-adjust: 100%;
+  }
+}

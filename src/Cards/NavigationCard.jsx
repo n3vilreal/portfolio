@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function NavigationCard({ icon, text, to }) {
+export default function NavigationCard({ icon, text, to, onClick }) {
   return (
     <Link
       to={to}
+      onClick={onClick}
       className="mx-1 flex items-center space-x-2 pr-10 cursor-pointer hover:text-green-400"
     >
       <div className="text-gray-400 text-2xl">{icon}</div>

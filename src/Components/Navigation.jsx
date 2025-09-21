@@ -34,7 +34,11 @@ export default function Navigation({setActivePage}) {
         {navComp.map((comp, index)=>(
                 <NavigationCard 
                 to = {comp.to}
-                key={index} icon={comp.icon} text={comp.text} onClick={() => setActivePage(comp.text.toLowerCase())}/>
+                key={index} 
+                icon={comp.icon} 
+                text={comp.text} 
+                onClick={() => setActivePage(comp.text.toLowerCase())}
+                />
         ))}
     </div>
     </>
