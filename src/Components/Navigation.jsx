@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoBookOutline } from "react-icons/io5";
 import { MdInterests } from "react-icons/md";
 import { GoProjectSymlink } from "react-icons/go";

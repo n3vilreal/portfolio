@@ -1,4 +1,3 @@
-import React from 'react';
 import InterestsCard from '../Cards/InterestsCard';
 
 export default function Interests() {

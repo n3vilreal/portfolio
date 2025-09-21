@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Overview() {
   return (
   <div className='flex flex-col md:flex-row w-full pt-10'>

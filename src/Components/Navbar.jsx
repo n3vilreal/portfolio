@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoMenu } from "react-icons/io5";
 import Logo from '../assets/github.svg';
 import { IoSearchSharp } from "react-icons/io5";
